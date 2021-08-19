@@ -1,6 +1,12 @@
 RPLIDAR ROS package for Noetic
 =====================================================================
 
+To use this repository you need to have Ros noetic properly installed in your machine: http://wiki.ros.org/noetic/Installation
+
+You also need to have bulit your catkin workspace: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+
+NOTE: This tutorial assumes you have your catkin_ws folder in your home directory if not simply change directory to your catkin_ws/src and continue from the git clone part (line 29 in this readme file)
+
 ROS node and test application for RPLIDAR Ros Noetic Version
 
 Visit following Website for more details about RPLIDAR:
@@ -28,13 +34,17 @@ How to build rplidar ros package:
 How to run rplidar ros package
 =====================================================================
 
-```roslaunch rplidar_ros view_rplidar.launch (for RPLIDAR A1/A2)```
+(for RPLIDAR A1/A2)
+
+```roslaunch rplidar_ros view_rplidar.launch``` 
 
 
 or
 
 
-```roslaunch rplidar_ros view_rplidar_a3.launch (for RPLIDAR A3)```
+(for RPLIDAR A3)
+
+```roslaunch rplidar_ros view_rplidar_a3.launch```
 
 You should see rplidar's scan result in the rviz.
 
