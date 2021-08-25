@@ -48,4 +48,4 @@ or
 
 You should see rplidar's scan result in the rviz.
 
-You can also use this repository to see the ros topics used and message types. Using this information you can use hector slam to make a Simoultaneous Localization and mapping robot. Currently working on that repository.
+You can also use this repository to see the ros topics used and message types. Using this information you can use hector slam to make a Simoultaneous Localization and mapping robot which you can find here: https://github.com/sacchinbhg/Hector-Slam-Noetic.git
